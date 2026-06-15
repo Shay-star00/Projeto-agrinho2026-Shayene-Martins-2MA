@@ -1,123 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agrinho 2026</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte & Sustentável — Equilíbrio é o Futuro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero" id="topo">
-    <div class="hero-content">
-      <span class="badge">Agrinho 2026</span>
-      <h1>Agro forte, futuro sustentável</h1>
-      <p>
-        Uma página escolar com visual bonito, conteúdo organizado e animações suaves
-        sobre o tema do Agrinho 2026.
-      </p>
-      <a href="#sobre" class="btn">Conhecer o projeto</a>
-    </div>
-  </header>
 
-  <nav class="navbar">
-    <a href="#sobre">Sobre</a>
-    <a href="#tema">Tema</a>
-    <a href="#categorias">Categorias</a>
-    <a href="#etapas">Etapas</a>
-    <a href="#importancia">Importância</a>
-  </nav>
-
-  <main class="container">
-    <section class="card reveal" id="sobre">
-      <h2>Sobre o Agrinho</h2>
-      <p>
-        O Agrinho é um programa educacional que incentiva alunos, professores e escolas
-        a estudarem temas ligados à cidadania, sustentabilidade, campo e cidade.
-      </p>
-      <p>
-        Em 2026, o concurso propõe projetos criativos, textos, desenhos e soluções inovadoras.
-      </p>
-    </section>
-
-    <section class="card reveal" id="tema">
-      <h2>Tema oficial de 2026</h2>
-      <div class="highlight">
-        “Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”
-      </div>
-      <p>
-        O tema convida os estudantes a refletirem sobre produção de alimentos,
-        tecnologia, preservação da natureza e uso responsável dos recursos.
-      </p>
-    </section>
-
-    <section class="card reveal" id="categorias">
-      <h2>Categorias do Concurso</h2>
-      <div class="grid">
-        <article class="box">
-          <h3>Redação</h3>
-          <p>Textos com criatividade, argumento e reflexão sobre o tema.</p>
-        </article>
-        <article class="box">
-          <h3>Desenho</h3>
-          <p>Produções artísticas que representam o campo, a cidade e a sustentabilidade.</p>
-        </article>
-        <article class="box">
-          <h3>Robótica</h3>
-          <p>Projetos com tecnologia e soluções para desafios do meio rural.</p>
-        </article>
-        <article class="box">
-          <h3>Programação</h3>
-          <p>Criação de ideias e ferramentas digitais ligadas ao tema.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="card reveal" id="etapas">
-      <h2>Como fazer o trabalho</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="circle">1</div>
-          <div>
-            <strong>Pesquise.</strong>
-            <p>Leia sobre sustentabilidade, agronegócio e meio ambiente.</p>
-          </div>
+    <header>
+        <div class="header-container">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio vital entre produção de alimentos e conservação ambiental</p>
+            <span class="theme-hint">💡 Dica: Clique no fundo vazio da página para alternar o Modo Escuro</span>
         </div>
-        <div class="step">
-          <div class="circle">2</div>
-          <div>
-            <strong>Escolha a categoria.</strong>
-            <p>Você pode fazer redação, desenho, projeto ou apresentação.</p>
-          </div>
+    </header>
+
+    <main class="container">
+        
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'analise')">Análise Crítica</button>
+            <button class="tab-btn" onclick="openTab(event, 'dados')">Colheita & Desmatamento</button>
+            <button class="tab-btn" onclick="openTab(event, 'solucao')">Proposta de Solução</button>
+            <button class="tab-btn" onclick="openTab(event, 'midia')">Artigos e Vídeos</button>
         </div>
-        <div class="step">
-          <div class="circle">3</div>
-          <div>
-            <strong>Capriche no visual.</strong>
-            <p>Use cores, organização e criatividade para deixar o trabalho bonito.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="card reveal" id="importancia">
-      <h2>Importância do Agrinho</h2>
-      <ul class="list">
-        <li>Valoriza a educação.</li>
-        <li>Estimula a consciência ambiental.</li>
-        <li>Mostra a ligação entre campo e cidade.</li>
-        <li>Incentiva criatividade e inovação.</li>
-        <li>Forma estudantes mais críticos e participativos.</li>
-      </ul>
-    </section>
-  </main>
+        <section id="analise" class="tab-content active-content">
+            <h2>Pontos Positivos vs. Pontos Negativos</h2>
+            <div class="grid-cards">
+                <div class="card positive">
+                    <h3>🟢 Pontos Positivos</h3>
+                    <ul>
+                        <li><strong>Tecnologia de Precisão:</strong> Drones e sensores reduzem o desperdício de água e insumos.</li>
+                        <li><strong>Práticas Conservacionistas:</strong> Plantio direto e rotação de culturas evitam a degradação do solo.</li>
+                        <li><strong>Força Econômica:</strong> Sustenta o PIB e gera segurança alimentar global.</li>
+                    </ul>
+                </div>
+                <div class="card negative">
+                    <h3>🔴 Pontos Negativos</h3>
+                    <ul>
+                        <li><strong>Uso Maciço de Químicos:</strong> Dependência de agrotóxicos poluidores.</li>
+                        <li><strong>Pegada de Carbono:</strong> Emissões elevadas vindas do manejo incorreto da pecuária.</li>
+                        <li><strong>Pressão de Expansão:</strong> Risco constante de avanço sobre áreas nativas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-  <a href="#topo" class="top-btn" aria-label="Voltar ao topo">↑</a>
+        <section id="dados" class="tab-content">
+            <h2>O Cenário da Última Safra</h2>
+            <p>A colheita do ano passado provou que a natureza cobra o preço da instabilidade climática. Eventos extremos causados pelas mudanças do clima geraram quebras localizadas, enquanto fazendas tecnológicas bateram recordes utilizando sementes resilientes.</p>
+            <div class="metric-box">
+                <div class="metric">
+                    <h4>Colheita Passada</h4>
+                    <span class="highlight">Produção Alta, mas Instável</span>
+                </div>
+                <div class="metric">
+                    <h4>Desmatamento</h4>
+                    <span class="highlight alert">Queda na ilegalidade, mas persistente</span>
+                </div>
+            </div>
+            <p style="margin-top: 15px;">Os dados do MapBiomas indicam que a fiscalização por satélite barrou o desmatamento bruto ilegal na Mata Atlântica, porém as brechas regulatórias e o desflorestamento em fronteiras agrícolas ainda geram boicotes internacionais.</p>
+        </section>
 
-  <footer class="footer">
-    <p>Trabalho escolar sobre o Agrinho 2026</p>
-    <p>Projeto feito por Shayene</p>
-  </footer>
+        <section id="solucao" class="tab-content">
+            <h2>A Solução: Agricultura Regenerativa</h2>
+            <p>Não precisamos parar de produzir, precisamos produzir de forma inteligente. Veja os pilares da mudança:</p>
+            <ol class="solucoes-list">
+                <li><strong>Adoção massiva de Bioinsumos:</strong> Trocar a química por defensores orgânicos e biológicos.</li>
+                <li><strong>Créditos de Carbono:</strong> Pagar o produtor financeiramente por manter árvores de pé.</li>
+                <li><strong>Rastreabilidade com Blockchain:</strong> Garantir transparência total do campo até a mesa do consumidor.</li>
+            </ol>
+            <div class="interactive-box">
+                <p>💡 <strong>Reflexão:</strong> Sustentabilidade no agro não é custo, é investimento para garantir mercados exigentes no futuro.</p>
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <section id="midia" class="tab-content">
+            <h2>Materiais de Apoio Recomendados</h2>
+            <div class="media-container">
+                <div class="media-item">
+                    <h4>📄 Artigo da Embrapa</h4>
+                    <p><em>"Sistemas de Integração Lavoura-Pecuária-Floresta (ILPF) e a Descarbonização do Campo"</em> - Um estudo técnico completo sobre práticas de balanço neutro de carbono.</p>
+                </div>
+                <div class="media-item">
+                    <h4>🎬 Vídeo / Documentário</h4>
+                    <p><em>"O Futuro do Alimento"</em> (Canal Sistema FAEP/SENAR no YouTube) - Demonstração prática do uso de robótica e biotecnologia nas escolas e no campo paranaense.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 — Pesquisa Especial Agrinho. Desenvolvido com foco no Equilíbrio Sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
